@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+<style>
+header{
+    border: 5px solid blue;
+background: aqua;
+
+}
+
+section{
+
+    border: 5px solid blue;
+background: blueviolet;
+}
+
+aside{
+    border: 5px solid blue;
+    background: green;
+
+}
+
+footer{
+    border: 5px solid blue; 
+background: salmon;
+
+}
+
+.wrap{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 400px;
+    justify-content: space-between;
+    background: #eee;
+}
+
+.wrap2{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-grow: 1;
+
+}
+header, footer{
+    flex-basis: 50px;
+}
+
+.wrap2 section{
+
+    flex-grow: 1;
+}
+.wrap2 aside {
+    flex-basis: 200px;
+
+
+}
+header,aside,
+section,footer{
+    display : }
+</style>
+
+
+
+</head>
+
+
+
+
+<body>
+    <div>    
+    <div class="wrap">    
+    <header>header</header>
+
+    <div class="wrap2">    
+    <section>section</section>
+    <aside>aside</aside>
+    <div>   
+    <footer>footer</footer>
+</div>
+    </body></div>
+</body>
+</html>
