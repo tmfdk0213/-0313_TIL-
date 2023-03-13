@@ -34,4 +34,5 @@ grid-gap: 10px 10px;
 
 li:nth-child(1){
     grid-row: 
+    grid-column:
 }

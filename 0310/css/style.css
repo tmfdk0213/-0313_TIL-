@@ -1,0 +1,43 @@
+body{
+    background-image: url();
+}
+
+.wrapper{
+background-color: #ddd;
+width: 800px;
+margin: 40px auto;
+border: 10px solid red;
+text-align: center;
+
+
+}
+h1{
+    box-shadow: inset 0 0 10px lime;
+}
+
+
+p{
+    margin: initial;
+}
+
+div{
+    background-color: orange;
+    width: 400px;
+    margin: 0 auto;
+ 
+}
+
+.header{
+    background-image: url();
+    color: white;
+padding: 100%;
+}
+
+.contents{
+
+}
+
+.footer{
+background-color: #f4f4f4;
+
+}

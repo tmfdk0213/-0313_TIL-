@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button 동적 가상선택자</title>
+<style>
+[class ^="btn"]{
+    width: 88px;
+    height: 32px;
+    background: #343F50;
+    box-shadow: inxet 1px 1px #4A5568;
+border: 1px solid #1A202C;
+color: #CBD5DF;
+
+}
+
+/*text-decoration: none*/
+/*.btn:not(:disabled):hover*/
+.btn:hover{
+    text-decoration: underline;
+    color:#fff;
+
+}
+
+
+.btn:active{
+    box-shadow: inset 1px 1px #262F3E;
+    
+}
+
+.btn:focus{
+    border: 1px solid #439AFF;
+}
+
+
+
+
+.btn:disabled{
+    box-shadow: none;
+    color: #4A5568;
+text-decoration: none;
+background: #3A4556;
+border: 1px solid #343E4E;
+
+}
+
+.btn-pdsition:hover {
+    background: #439AFF;
+    border: 1px solid #439AFF;
+}
+
+ .btn-pdsition:hover{    
+    box-shadow: inset 1px 1px #73B4FF;
+
+}
+
+.btn-pdsition:active{
+    box-shadow: inset 1px 1px #73B4FF;
+
+}
+
+
+</style>
+
+
+
+
+</head>
+
+<body>
+   <button class="btn" type="button">button</button>
+   <button class="btn-position" type="button">button</button>
+   <button class="btn-negative" type="button">button</button>
+   <button class="btn" type="button" disabled>button</button>
+</body>
+</html>
